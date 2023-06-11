@@ -8,5 +8,6 @@ public interface TmdbTvSeries {
     void getAllTvSeries();
     void getSimilarTvSeries(Integer page);
     void getLatestTvSeries();
+    void getTopRatedTvSeries();
 
 }
